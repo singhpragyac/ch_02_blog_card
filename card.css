@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Figtree-Regular'; /* Name your font family */
-    src: url('font_family/Figtree-VariableFont_wght.ttf'); /* Locate the .ttf file within your directory*/
+    font-family: 'Figtree-Regular';
+    src: url('font_family/Figtree-VariableFont_wght.ttf');
 }
 
 * {
@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 27px;
+    margin-top: 180px;
    
 }
 
@@ -49,8 +49,10 @@ body {
 }
 
 .learn {
-    background-color:hsl(47, 88%, 63%) ;
-    border-radius: 4%;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    padding: 8px 12px 8px 12px;
+    font-weight: bold;
 }
 
 .avatar {
@@ -61,6 +63,13 @@ p {
     font-size: 16px;
 }
 
-h2 {
-    color: hsl(47, 88%, 63%);
+.svg_class {
+    border-radius: 10px;
+}
+
+.user-name {
+    position: absolute;
+  margin-left: 16px;
+  margin-top: 24px;
+  font-weight: bold;
 }
